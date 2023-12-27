@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web簡易ピアノ</title>
+        <link rel='stylesheet' type='text/css' href='style.css'>
+    </head>
+    <body>
+        <main>
+            <!-- 簡易ピアノパネル -->
+            <div class="piano">
+                <h1 class="title">PianoPlayingApp</h1>
+                <!-- 曲名表示 -->
+                <div class="playlist">
+                    <h2 id="pl_display">自動演奏：曲名</h2>
+                </div>
+                <!-- 音階名表示 -->
+                <div class="music">
+                    <h1 id="display"></h1>
+                </div>
+                <!-- キーボード表示 -->
+                <div class="keyboard">
+                    <div class="key" data-note="ド" data-hz="261.63" data-duration=1000>ド</div>
+                    <div class="key" data-note="レ" data-hz="293.66" data-duration=1000>レ</div>
+                    <div class="key" data-note="ミ" data-hz="329.63" data-duration=1000>ミ</div>
+                    <div class="key" data-note="ファ" data-hz="349.23" data-duration=1000>ファ</div>
+                    <div class="key" data-note="ソ" data-hz="392.00" data-duration=1000>ソ</div>
+                    <div class="key" data-note="ラ" data-hz="440.00" data-duration=1000>ラ</div>
+                    <div class="key" data-note="シ" data-hz="493.88" data-duration=1000>シ</div>
+                    <div class="key" data-note="ド(高音)" data-hz="523.25" data-duration=1000>ド</div>
+                </div>
+                <div class="button1">
+                    <input type="button" id="autoplay" name="autoplay" value="自動演奏">
+                </div>
+            </div>
+        </main>
+        <script src='main.js'></script>
+    </body>
+</html>

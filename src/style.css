@@ -1,0 +1,110 @@
+/*----------------------------------
+/* CSSのリセット（消さないでください）
+-----------------------------------*/
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Noto Sans JP;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+figure {
+    display: block;
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+
+/* ---------------------------------
+/* 簡易ピアノCSS
+-----------------------------------*/
+main {
+    display: flex;
+}
+.piano {
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.piano .title {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #0AA;
+    text-align: center;
+    color: #fff;
+}
+
+.piano .playlist {
+    margin-bottom: 10px;
+    width: 600px;
+    text-align: center;
+}
+
+.music #display {
+    text-align: center;
+    font-size: 40px;
+    color: #008000;
+    line-height: 100px;
+}
+
+.piano .music {
+    width: 400px;
+    height: 100px;
+    background-color: #7fff00;
+    padding: 20px;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.keyboard {
+    width: 490px;
+    height: 80px;
+    background-color:#FFF;
+    margin: 20px auto;
+    display: flex;
+}
+.keyboard .key {
+    width: calc(100% / 7 - 10px);
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+    background-color:#7fff00;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button1 {
+    width: 300px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.button1 #autoplay {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    background-color:#0AA;
+    color:#fff;
+    text-align: center;
+    font-size: 15px;
+}
