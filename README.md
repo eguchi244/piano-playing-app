@@ -36,7 +36,7 @@ piano-playing-app（ルートディレクトリ）
 ```
 
 ## 環境構築
-Github から PianoPlayingApp をローカル環境に構築する手順です。
+Github から PianoPlayingApp をローカル環境に構築する手順です。   
 任意の作業フォルダ内で下記を実施してください。
 
 1. GitHubよりプロジェクトをダウンロードする
